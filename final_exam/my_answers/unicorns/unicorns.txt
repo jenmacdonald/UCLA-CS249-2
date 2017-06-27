@@ -1,0 +1,88 @@
+
+Final Exam -- Unicorns
+Due: Sunday June 18, 2017
+
+Jennifer MacDonald
+604501712
+
+(a) determine the number of connected components
+unicorn
+	Number of connected components of unicorn companies: 1
+Crunchbase
+	Number of connected components of crunchbase companies: 456
+
+(b) compute the degree distribution and print nodes with the top 10 values
+unicorn
+	Top ten nodes of unicorn companies with the highest degree distributions: 
+
+	('Airbnb', 0.7410071942446043)
+	('Dropbox', 0.5539568345323741)
+	('Nextdoor', 0.5251798561151079)
+	('Lookout', 0.5251798561151079)
+	('Stripe', 0.5107913669064749)
+	('Ola', 0.5035971223021583)
+	('Domo', 0.5035971223021583)
+	('Snapchat', 0.49640287769784175)
+	('Jet', 0.4892086330935252)
+	('Uber', 0.48201438848920863)
+Crunchbase
+	Top ten nodes of crunchbase companies with the highest degree distributions: 
+
+	('FundersClub', 0.08070072564685186)
+	('Dropbox', 0.08070072564685186)
+	('Uber', 0.08060299543111242)
+	('Airbnb', 0.07972342348945735)
+	('Karma', 0.07842849813090963)
+	('AngelList', 0.07796427960614723)
+	('Mattermark', 0.07767108895892888)
+	('Ark', 0.07432382906985267)	
+	('Zesty', 0.07087883896503702)
+	('Stripe', 0.07063451342568838)
+
+(c) determine whether the graph is scale-free by plotting the histogram for P(d) and determining whether log P(d) appears to be a linear function of d
+unicorn
+	log10(P(d)) does not appear to be a scale-free graph for the unicorns dataset.
+Crunchbase
+	log10(P(d)) does not appear to be a scale-free graph for the crunchbase dataset.
+
+(d) compute eigenvector centrality of the nodes, and print nodes with the top 10 values
+unicorn
+	Top ten nodes of unicorn companies with the highest node eigenvector centralities: 
+
+	('Airbnb', 0.1900404394828088)
+	('Dropbox', 0.1669238773296275)
+	('Stripe', 0.1542778120198582)
+	('Lookout', 0.1536810142356945)
+	('Nextdoor', 0.15188756596865863)
+	('Instacart', 0.15116356203881287)
+	('Jawbone', 0.14854995163001652)
+	('Snapchat', 0.14795347212434007)
+	('Domo', 0.14539866634549684)
+	('Ola', 0.14161895594277404)
+Crunchbase
+	Top ten nodes of crunchbase companies with the highest node eigenvector centralities: 
+
+	('Mattermark', 0.045914343130158956)
+	('Zesty', 0.04515795883841474)
+	('E_la_Carte', 0.04486785341348761)
+	('Experiment', 0.04464550349794749)
+	('LeadGenius', 0.04375429608689896)
+	('Zencoder', 0.04336776657179591)
+	('Airbnb', 0.04232871660360578)
+	('Dropbox', 0.04206725954141686)
+	('Homejoy', 0.04194768227313869)
+	('PlanGrid', 0.04155963169857133)
+
+(e) determine the diameter of the largest component
+unicorn
+	Diameter of the largest component of unicorn companies: 4
+Crunchbase
+	Diameter of the largest component of crunchbase companies: 25
+
+(f) compute the clustering coef?cient and use it to determine whether the network is a small-world network
+unicorn
+	Clustering coefficient of unicorn companies: 0.6218026793429178
+	The unicorn network is a small-world network.
+Crunchbase
+	Clustering coefficient of crunchbase companies: 0.0021609860180251427
+	The crunchbase network is a small-world network.
